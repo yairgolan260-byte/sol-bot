@@ -1,0 +1,9 @@
+requests
+python-dotenv
+py-clob-client
+xgboost
+scikit-learn
+pandas
+numpy
+joblib
+web3
