@@ -39,7 +39,7 @@ PRIVATE_KEY = os.getenv("PRIVATE_KEY")
 # ── Settings ───────────────────────────────────────────────────────────────────
 BET_SECONDS_BEFORE = 290   # start 15 seconds after window opens
 RECHECK_INTERVAL   = 1     # recheck every 1 second for take profit
-ML_CONF_MIN        = 0.80  # minimum ML confidence
+ML_CONF_MIN        = 0.83  # minimum ML confidence
 ML_CONF_MAX        = 0.95
 MAX_ODDS           = 55    # only bet when odds below 80¢
 MIN_EDGE           = 0  # minimum edge (ML prob - market price) = 7%
