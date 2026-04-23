@@ -37,11 +37,11 @@ load_dotenv()
 PRIVATE_KEY = os.getenv("PRIVATE_KEY")
 
 # ── Settings ───────────────────────────────────────────────────────────────────
-BET_SECONDS_BEFORE = 60   # start 15 seconds after window opens
+BET_SECONDS_BEFORE = 299   # start 15 seconds after window opens
 RECHECK_INTERVAL   = 1     # recheck every 1 second for take profit
-ML_CONF_MIN        = 0.86  # minimum ML confidence
+ML_CONF_MIN        = 0.55  # minimum ML confidence
 ML_CONF_MAX        = 0.95
-MAX_ODDS           = 80    # only bet when odds below 80¢
+MAX_ODDS           = 52    # only bet when odds below 80¢
 MIN_EDGE           = 0  # minimum edge (ML prob - market price) = 7%
 MAX_BETS_PER_WINDOW= 1
 TAKE_PROFIT_PCT    = 0.20  # sell when odds rise 30% from entry
