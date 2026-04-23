@@ -37,7 +37,7 @@ load_dotenv()
 PRIVATE_KEY = os.getenv("PRIVATE_KEY")
 
 # ── Settings ───────────────────────────────────────────────────────────────────
-BET_SECONDS_BEFORE = 295   # start 15 seconds after window opens
+BET_SECONDS_BEFORE = 293   # start 15 seconds after window opens
 RECHECK_INTERVAL   = 1     # recheck every 1 second for take profit
 ML_CONF_MIN        = 0.86  # minimum ML confidence
 ML_CONF_MAX        = 0.95
